@@ -2,8 +2,8 @@ export type Info = {
     name: string,
     geschlecht: "mänlich" | "weiblich",
     hygiene: "sauber" | "normal" | "dreckig",
-    anzahl: number,
+    days: number,
     typ: "wohnmobil" | "hotel" | "lager",
-    important: "winter" | "spring" | "summer" | "automm",
+    season: "winter" | "spring" | "summer" | "automm",
 }
 
