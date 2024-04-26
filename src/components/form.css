@@ -1,0 +1,44 @@
+#travelForm {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #eaf7ef; /* Grünton */
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.formGroup {
+  margin-bottom: 20px;
+}
+
+h3 {
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.radio {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+button {
+  background-color: #4caf50; /* Grünton */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049; /* Dunklerer Grünton */
+}
